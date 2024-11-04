@@ -17,9 +17,9 @@
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>270</x>
-      <y>40</y>
-      <width>81</width>
+      <x>220</x>
+      <y>50</y>
+      <width>171</width>
       <height>51</height>
      </rect>
     </property>
@@ -27,15 +27,15 @@
      <string notr="true">font: 20pt &quot;MS Shell Dlg 2&quot;;</string>
     </property>
     <property name="text">
-     <string>Цвета</string>
+     <string>Цвета&amp;Слова</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>150</x>
+      <x>130</x>
       <y>120</y>
-      <width>341</width>
+      <width>391</width>
       <height>81</height>
      </rect>
     </property>
@@ -43,7 +43,7 @@
      <string notr="true">font: 13pt &quot;MS Shell Dlg 2&quot;;</string>
     </property>
     <property name="text">
-     <string>Перед вами тест на запоминание цветов... </string>
+     <string>Перед вами тест на запоминание цветов и слов... </string>
     </property>
    </widget>
    <widget class="QLabel" name="label_3">
@@ -62,7 +62,7 @@
      <string>Инструкция</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="continue_coloursButton">
+   <widget class="QPushButton" name="continue_colours_wordsButton">
     <property name="geometry">
      <rect>
       <x>260</x>

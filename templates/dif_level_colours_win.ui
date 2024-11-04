@@ -14,7 +14,7 @@
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QPushButton" name="pushButton_7">
+   <widget class="QPushButton" name="startColoursButton">
     <property name="geometry">
      <rect>
       <x>290</x>
@@ -57,7 +57,7 @@
     </property>
     <layout class="QVBoxLayout" name="verticalLayout_2">
      <item>
-      <widget class="QRadioButton" name="radioButton_2">
+      <widget class="QRadioButton" name="easyColoursButton">
        <property name="styleSheet">
         <string notr="true">font: 11pt &quot;MS Shell Dlg 2&quot;;</string>
        </property>
@@ -67,7 +67,7 @@
       </widget>
      </item>
      <item>
-      <widget class="QRadioButton" name="radioButton_3">
+      <widget class="QRadioButton" name="mediumColoursButton">
        <property name="styleSheet">
         <string notr="true">font: 11pt &quot;MS Shell Dlg 2&quot;;</string>
        </property>
@@ -77,7 +77,7 @@
       </widget>
      </item>
      <item>
-      <widget class="QRadioButton" name="radioButton">
+      <widget class="QRadioButton" name="difficultColoursButton">
        <property name="styleSheet">
         <string notr="true">font: 11pt &quot;MS Shell Dlg 2&quot;;</string>
        </property>

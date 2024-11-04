@@ -48,14 +48,14 @@
       </widget>
      </item>
      <item>
-      <widget class="QPushButton" name="pushButton_3">
+      <widget class="QPushButton" name="wordsButton">
        <property name="text">
         <string>Слова</string>
        </property>
       </widget>
      </item>
      <item>
-      <widget class="QPushButton" name="pushButton_4">
+      <widget class="QPushButton" name="colours_wordsButton">
        <property name="text">
         <string>Микс: Цвета и Слова</string>
        </property>

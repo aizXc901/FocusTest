@@ -151,9 +151,9 @@
    <widget class="QWidget" name="formLayoutWidget">
     <property name="geometry">
      <rect>
-      <x>450</x>
-      <y>60</y>
-      <width>187</width>
+      <x>480</x>
+      <y>50</y>
+      <width>121</width>
       <height>301</height>
      </rect>
     </property>
@@ -171,13 +171,6 @@
         <widget class="QLabel" name="label_4">
          <property name="text">
           <string>Счет: 9</string>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QLabel" name="label_6">
-         <property name="text">
-          <string>Время: 2:11</string>
          </property>
         </widget>
        </item>
@@ -199,13 +192,6 @@
          </property>
         </widget>
        </item>
-       <item>
-        <widget class="QLabel" name="label_9">
-         <property name="text">
-          <string>Время: 1:59</string>
-         </property>
-        </widget>
-       </item>
       </layout>
      </item>
      <item row="0" column="0">
@@ -221,13 +207,6 @@
         <widget class="QLabel" name="label_11">
          <property name="text">
           <string>Счет: 2</string>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QLabel" name="label_12">
-         <property name="text">
-          <string>Время: 0:33</string>
          </property>
         </widget>
        </item>
