@@ -62,7 +62,7 @@
      <string>Инструкция</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="continueButton">
+   <widget class="QPushButton" name="continue_coloursButton">
     <property name="geometry">
      <rect>
       <x>260</x>
