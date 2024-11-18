@@ -11,23 +11,23 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>Цвета &amp; Слова (Легкий)</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>150</x>
-      <y>160</y>
-      <width>321</width>
+      <x>220</x>
+      <y>130</y>
+      <width>171</width>
       <height>31</height>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">font: 10.7pt &quot;MS Shell Dlg 2&quot;;</string>
+     <string notr="true">font: 11pt &quot;MS Shell Dlg 2&quot;;</string>
     </property>
     <property name="text">
-     <string>Выберите слова и цвета в правильном порядке:</string>
+     <string>Выберите слова и цвета</string>
     </property>
    </widget>
    <widget class="QWidget" name="verticalLayoutWidget">
@@ -44,10 +44,10 @@
       <widget class="QPushButton" name="pushButton_4">
        <property name="styleSheet">
         <string notr="true">font: 12pt &quot;MS Shell Dlg 2&quot;;
-background-color: yellow;</string>
+background-color: rgba(255, 255, 255, 0);</string>
        </property>
        <property name="text">
-        <string>Киви</string>
+        <string/>
        </property>
       </widget>
      </item>
@@ -55,10 +55,10 @@ background-color: yellow;</string>
       <widget class="QPushButton" name="pushButton_5">
        <property name="styleSheet">
         <string notr="true">font: 12pt &quot;MS Shell Dlg 2&quot;;
-background-color: rgb(255, 170, 255);</string>
+background-color: rgba(255, 255, 255, 0);</string>
        </property>
        <property name="text">
-        <string>Яблоко</string>
+        <string/>
        </property>
       </widget>
      </item>
@@ -66,21 +66,10 @@ background-color: rgb(255, 170, 255);</string>
       <widget class="QPushButton" name="pushButton_6">
        <property name="styleSheet">
         <string notr="true">font: 12pt &quot;MS Shell Dlg 2&quot;;
-background-color: rgb(255, 170, 0);</string>
+background-color: rgba(255, 255, 255, 0);</string>
        </property>
        <property name="text">
-        <string>Груша</string>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QPushButton" name="pushButton_2">
-       <property name="styleSheet">
-        <string notr="true">font: 12pt &quot;MS Shell Dlg 2&quot;;
-background-color: red;</string>
-       </property>
-       <property name="text">
-        <string>Киви</string>
+        <string/>
        </property>
       </widget>
      </item>
@@ -106,7 +95,7 @@ background-color: red;</string>
     <property name="geometry">
      <rect>
       <x>200</x>
-      <y>80</y>
+      <y>50</y>
       <width>211</width>
       <height>80</height>
      </rect>
@@ -116,10 +105,10 @@ background-color: red;</string>
       <widget class="QLabel" name="label_14">
        <property name="styleSheet">
         <string notr="true">font: 75 14pt &quot;MS Shell Dlg 2&quot;;
-background-color: red;</string>
+background-color: rgba(255, 255, 255, 0);</string>
        </property>
        <property name="text">
-        <string>              Киви</string>
+        <string/>
        </property>
       </widget>
      </item>
@@ -146,22 +135,12 @@ background-color: red;</string>
     </property>
     <layout class="QHBoxLayout" name="horizontalLayout_5">
      <item>
-      <widget class="QLabel" name="label_3">
+      <widget class="QLabel" name="score">
        <property name="styleSheet">
         <string notr="true">font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
        </property>
        <property name="text">
-        <string>Счет:</string>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QLabel" name="label_6">
-       <property name="styleSheet">
-        <string notr="true">font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
-       </property>
-       <property name="text">
-        <string>3</string>
+        <string/>
        </property>
       </widget>
      </item>
@@ -178,22 +157,12 @@ background-color: red;</string>
     </property>
     <layout class="QHBoxLayout" name="horizontalLayout_6">
      <item>
-      <widget class="QLabel" name="label_9">
+      <widget class="QLabel" name="attempt">
        <property name="styleSheet">
         <string notr="true">font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
        </property>
        <property name="text">
-        <string>Попытка №</string>
-       </property>
-      </widget>
-     </item>
-     <item>
-      <widget class="QLabel" name="label_15">
-       <property name="styleSheet">
-        <string notr="true">font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
-       </property>
-       <property name="text">
-        <string>4</string>
+        <string/>
        </property>
       </widget>
      </item>
@@ -202,68 +171,39 @@ background-color: red;</string>
    <widget class="QWidget" name="formLayoutWidget">
     <property name="geometry">
      <rect>
-      <x>470</x>
+      <x>460</x>
       <y>60</y>
-      <width>122</width>
+      <width>151</width>
       <height>301</height>
      </rect>
     </property>
     <layout class="QFormLayout" name="formLayout">
      <item row="2" column="0">
-      <layout class="QHBoxLayout" name="horizontalLayout">
-       <item>
-        <widget class="QLabel" name="label_5">
-         <property name="text">
-          <string>Попытка #1</string>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QLabel" name="label_4">
-         <property name="text">
-          <string>Счет: 9</string>
-         </property>
-        </widget>
-       </item>
-      </layout>
+      <layout class="QHBoxLayout" name="horizontalLayout"/>
      </item>
      <item row="1" column="0">
-      <layout class="QHBoxLayout" name="horizontalLayout_2">
-       <item>
-        <widget class="QLabel" name="label_8">
-         <property name="text">
-          <string>Попытка #2</string>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QLabel" name="label_10">
-         <property name="text">
-          <string>Счет: 11</string>
-         </property>
-        </widget>
-       </item>
-      </layout>
+      <layout class="QHBoxLayout" name="horizontalLayout_2"/>
      </item>
      <item row="0" column="0">
-      <layout class="QHBoxLayout" name="horizontalLayout_3">
-       <item>
-        <widget class="QLabel" name="label_12">
-         <property name="text">
-          <string>Попытка #3</string>
-         </property>
-        </widget>
-       </item>
-       <item>
-        <widget class="QLabel" name="label_16">
-         <property name="text">
-          <string>Счет: 2</string>
-         </property>
-        </widget>
-       </item>
-      </layout>
+      <layout class="QHBoxLayout" name="horizontalLayout_3"/>
      </item>
     </layout>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>160</y>
+      <width>161</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 11pt &quot;MS Shell Dlg 2&quot;;</string>
+    </property>
+    <property name="text">
+     <string>в правильном порядке:</string>
+    </property>
    </widget>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>

@@ -11,46 +11,46 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>Цвета. Инструкция</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QLabel" name="label">
-    <property name="geometry">
-     <rect>
-      <x>270</x>
-      <y>40</y>
-      <width>81</width>
-      <height>51</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">font: 20pt &quot;MS Shell Dlg 2&quot;;</string>
-    </property>
-    <property name="text">
-     <string>Цвета</string>
-    </property>
-   </widget>
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>150</x>
-      <y>120</y>
-      <width>341</width>
-      <height>81</height>
+      <x>-30</x>
+      <y>110</y>
+      <width>711</width>
+      <height>201</height>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">font: 13pt &quot;MS Shell Dlg 2&quot;;</string>
+     <string notr="true">font: 10pt &quot;MS Shell Dlg 2&quot;;</string>
     </property>
     <property name="text">
-     <string>Перед вами тест на запоминание цветов... </string>
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Вам будет показана последовательность из цветов.&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Далее требуется выбрать эти цвета в правильном порядке.&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;За каждую правильную последовательность вы получаете очко.&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Если последовательность неправильная, счет сбрасывается, и начинается новая попытка.&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;Удачи&lt;/span&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;!&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="continue_coloursButton">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>300</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 11pt &quot;MS Shell Dlg 2&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Продолжить</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_3">
     <property name="geometry">
      <rect>
-      <x>250</x>
-      <y>100</y>
+      <x>260</x>
+      <y>70</y>
       <width>121</width>
       <height>31</height>
      </rect>
@@ -62,20 +62,20 @@
      <string>Инструкция</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="continue_coloursButton">
+   <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>260</x>
-      <y>200</y>
-      <width>101</width>
-      <height>31</height>
+      <x>280</x>
+      <y>20</y>
+      <width>81</width>
+      <height>51</height>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">font: 11pt &quot;MS Shell Dlg 2&quot;;</string>
+     <string notr="true">font: 20pt &quot;MS Shell Dlg 2&quot;;</string>
     </property>
     <property name="text">
-     <string>Продолжить</string>
+     <string>Цвета</string>
     </property>
    </widget>
   </widget>

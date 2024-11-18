@@ -11,15 +11,15 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>Цвета &amp; Слова. Инструкция</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>220</x>
-      <y>50</y>
-      <width>171</width>
+      <x>230</x>
+      <y>10</y>
+      <width>181</width>
       <height>51</height>
      </rect>
     </property>
@@ -27,30 +27,30 @@
      <string notr="true">font: 20pt &quot;MS Shell Dlg 2&quot;;</string>
     </property>
     <property name="text">
-     <string>Цвета&amp;Слова</string>
+     <string>Цвета &amp; Слова</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>130</x>
-      <y>120</y>
-      <width>391</width>
-      <height>81</height>
+      <x>-30</x>
+      <y>100</y>
+      <width>711</width>
+      <height>201</height>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">font: 13pt &quot;MS Shell Dlg 2&quot;;</string>
+     <string notr="true">font: 10pt &quot;MS Shell Dlg 2&quot;;</string>
     </property>
     <property name="text">
-     <string>Перед вами тест на запоминание цветов и слов... </string>
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Вам будет показана последовательность из слов, каждое из которых отображается на цветном фоне.&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Далее требуется выбрать эти слова в правильном порядке и с соответствующими цветами.&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;За каждую правильную последовательность вы получаете очко.&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Если последовательность неправильная, счет сбрасывается, и начинается новая попытка.&lt;br/&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;Удачи&lt;/span&gt;&lt;span style=&quot; font-size:14pt;&quot;&gt;!&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_3">
     <property name="geometry">
      <rect>
-      <x>250</x>
-      <y>100</y>
+      <x>260</x>
+      <y>60</y>
       <width>121</width>
       <height>31</height>
      </rect>
@@ -65,8 +65,8 @@
    <widget class="QPushButton" name="continue_colours_wordsButton">
     <property name="geometry">
      <rect>
-      <x>260</x>
-      <y>200</y>
+      <x>270</x>
+      <y>290</y>
       <width>101</width>
       <height>31</height>
      </rect>
